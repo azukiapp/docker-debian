@@ -19,6 +19,7 @@ RUN packages=' \
     wget \
     vim \
     git-core \
+    ca-certificates \
   ' \
   set -x \
   && apt-get update \
